@@ -6,9 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit -p .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "validate:trainers": "tsx scripts/validate-trainers.mts",
+    "check": "npm run typecheck && npm run lint && npm run test && npm run validate:trainers"
   },
   "dependencies": {
+    "@pkmn/client": "^0.7.3",
+    "@pkmn/data": "^0.10.11",
+    "@pkmn/dex": "^0.10.11",
+    "@pkmn/img": "^0.3.4",
+    "@pkmn/protocol": "^0.7.3",
+    "@pkmn/randoms": "^0.10.11",
+    "@pkmn/sets": "^5.2.0",
+    "@pkmn/sim": "^0.10.11",
+    "@pkmn/types": "^4.0.0",
+    "@pkmn/view": "^0.7.3",
+    "@smogon/calc": "^0.12.0",
     "next": "16.4.2",
     "react": "19.3.0",
     "react-dom": "19.3.0"
@@ -21,6 +37,8 @@
     "eslint": "^9",
     "eslint-config-next": "16.4.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^4.1.12"
   }
 }

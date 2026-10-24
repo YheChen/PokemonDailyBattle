@@ -1,0 +1,8 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`buildShareText > matches the share format 1`] = `
+"Pokémon Champions — 2026-10-21
+vs Champion Cynthia — WIN in 14 turns
+🟢🟢🔴🟢🔴🟢
+Streak: 3"
+`;
