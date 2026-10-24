@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 64" width="420" height="64" role="img" aria-labelledby="t">
-  <title id="t">Pokémon Champions</title>
+  <title id="t">Pokémon Daily Battle</title>
   <g>
     <circle cx="32" cy="32" r="29" fill="#e63946" stroke="#1a1a1a" stroke-width="4"/>
     <path d="M3 32 A29 29 0 0 0 61 32 L3 32 Z" fill="#f1f3ff"/>

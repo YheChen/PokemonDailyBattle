@@ -5,7 +5,7 @@ import { SettingsForm } from '@/components/settings/SettingsForm';
 
 export const metadata: Metadata = {
   title: 'Settings',
-  description: 'Player name, battle speed, AI difficulty, default team generation and display options for Pokémon Champions.',
+  description: 'Player name, battle speed, AI difficulty, default team generation and display options for Pokémon Daily Battle.',
 };
 
 export default function SettingsPage() {

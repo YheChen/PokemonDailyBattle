@@ -266,7 +266,7 @@ describe('results helpers', () => {
 describe('buildShareText', () => {
   it('matches the share format', () => {
     const text = buildShareText({ date: '2026-10-21', trainerName: 'Champion Cynthia', result: makeResult(), streak: 3 });
-    expect(text).toBe('Pokémon Champions — 2026-10-21\nvs Champion Cynthia — WIN in 14 turns\n🟢🟢🔴🟢🔴🟢\nStreak: 3');
+    expect(text).toBe('Pokémon Daily Battle — 2026-10-21\nvs Champion Cynthia — WIN in 14 turns\n🟢🟢🔴🟢🔴🟢\nStreak: 3');
     expect(text).toMatchSnapshot();
   });
   it('handles losses, single turns and missing team status', () => {
@@ -276,7 +276,7 @@ describe('buildShareText', () => {
       result: makeResult({ won: false, turns: 1, playerTeamStatus: [], playerRemaining: 0 }),
       streak: 0,
     });
-    expect(loss).toBe('Pokémon Champions — 2026-01-01\nvs Professor Oak — LOSS in 1 turn\n🔴🔴🔴🔴🔴🔴\nStreak: 0');
+    expect(loss).toBe('Pokémon Daily Battle — 2026-01-01\nvs Professor Oak — LOSS in 1 turn\n🔴🔴🔴🔴🔴🔴\nStreak: 0');
     expect(resultEmojiGrid(makeResult({ playerTeamStatus: [], playerRemaining: 6 }))).toBe('🟢🟢🟢🟢🟢🟢');
   });
 });

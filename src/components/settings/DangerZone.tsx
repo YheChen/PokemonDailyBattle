@@ -47,7 +47,7 @@ export function DangerZone() {
         }
       >
         <p className="text-sm">
-          Everything Pokémon Champions stored in this browser will be deleted: statistics, settings, daily results, Boss
+          Everything Pokémon Daily Battle stored in this browser will be deleted: statistics, settings, daily results, Boss
           Rush runs and saved battles. This cannot be undone.
         </p>
       </Modal>

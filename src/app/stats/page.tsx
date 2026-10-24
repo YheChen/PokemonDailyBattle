@@ -5,7 +5,7 @@ import { StatsDashboard } from '@/components/stats/StatsDashboard';
 
 export const metadata: Metadata = {
   title: 'Statistics',
-  description: 'Your battle record in Pokémon Champions: wins, streaks, trainers defeated and battle history.',
+  description: 'Your battle record in Pokémon Daily Battle: wins, streaks, trainers defeated and battle history.',
 };
 
 export default function StatsPage() {

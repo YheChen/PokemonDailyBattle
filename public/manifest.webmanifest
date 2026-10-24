@@ -1,14 +1,26 @@
 {
-  "name": "Pokémon Champions",
-  "short_name": "Champions",
+  "name": "Pokémon Daily Battle",
+  "short_name": "Daily Battle",
   "description": "Six random Pokémon. Legendary opponents. One chance to become Champion.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#0f1226",
   "theme_color": "#0f1226",
   "icons": [
-    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
-    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
   ]
 }

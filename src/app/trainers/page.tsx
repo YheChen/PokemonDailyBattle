@@ -6,7 +6,7 @@ import { TRAINERS } from '@/data/trainers';
 
 export const metadata: Metadata = {
   title: 'Trainers',
-  description: 'Every Champion and famous trainer you can challenge in Pokémon Champions, with their canonical teams.',
+  description: 'Every Champion and famous trainer you can challenge in Pokémon Daily Battle, with their canonical teams.',
 };
 
 export default function TrainersPage() {

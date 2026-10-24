@@ -4,7 +4,7 @@
 import type { BattleResult } from '@/lib/battle/types';
 import { outcomeLabel } from './results';
 
-export const APP_NAME = 'Pokémon Champions';
+export const APP_NAME = 'Pokémon Daily Battle';
 export const ALIVE_EMOJI = '🟢';
 export const FAINTED_EMOJI = '🔴';
 
@@ -28,7 +28,7 @@ export function resultEmojiGrid(result: BattleResult): string {
 
 /**
  * @example
- * "Pokémon Champions — 2026-10-21\nvs Champion Cynthia — WIN in 14 turns\n🟢🟢🔴🟢🔴🟢\nStreak: 3"
+ * "Pokémon Daily Battle — 2026-10-21\nvs Champion Cynthia — WIN in 14 turns\n🟢🟢🔴🟢🔴🟢\nStreak: 3"
  */
 export function buildShareText({ date, trainerName, result, streak }: ShareTextInput): string {
   const turns = `${result.turns} turn${result.turns === 1 ? '' : 's'}`;

@@ -1,4 +1,4 @@
-# Pokémon Champions
+# Pokémon Daily Battle
 
 A browser Pokémon battle game. You get six random Pokémon from Generations 1–9 and face iconic trainers
 (Red, Cynthia, Steven, Leon, N, …). Every battle is resolved by the real Pokémon Showdown engine

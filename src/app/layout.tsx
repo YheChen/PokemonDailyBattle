@@ -10,11 +10,11 @@ const ui = Nunito({ weight: ['400', '600', '700', '800'], subsets: ['latin'], va
 
 export const metadata: Metadata = {
   title: {
-    default: 'Pokémon Champions',
-    template: '%s · Pokémon Champions',
+    default: 'Pokémon Daily Battle',
+    template: '%s · Pokémon Daily Battle',
   },
   description: 'Six random Pokémon. Legendary opponents. One chance to become Champion.',
-  applicationName: 'Pokémon Champions',
+  applicationName: 'Pokémon Daily Battle',
   manifest: '/manifest.webmanifest',
   icons: {
     icon: [
@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     statusBarStyle: 'black-translucent',
   },
   openGraph: {
-    title: 'Pokémon Champions',
+    title: 'Pokémon Daily Battle',
     description: 'Six random Pokémon. Legendary opponents. One chance to become Champion.',
     type: 'website',
   },

@@ -21,10 +21,10 @@ export function Nav() {
         Skip to content
       </a>
       <nav aria-label="Primary" className="mx-auto flex h-16 max-w-7xl items-center justify-between gap-4 px-4 sm:px-6">
-        <Link href="/" className="group flex items-center gap-2.5 rounded" aria-label="Pokémon Champions home">
+        <Link href="/" className="group flex items-center gap-2.5 rounded" aria-label="Pokémon Daily Battle home">
           <PokeBall size={30} className="transition-transform duration-300 group-hover:rotate-[360deg]" />
           <span className="font-display text-[0.6rem] uppercase leading-none text-text sm:text-xs">
-            Pokémon <span className="text-yellow">Champions</span>
+            Pokémon <span className="text-yellow">Daily Battle</span>
           </span>
         </Link>
 

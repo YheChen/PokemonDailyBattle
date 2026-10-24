@@ -1,4 +1,4 @@
-# Pokémon Champions — Architecture
+# Pokémon Daily Battle — Architecture
 
 A browser-based Pokémon battle game. Six random Pokémon from Gens 1–9 vs iconic trainers.
 Battles are resolved by the real Pokémon Showdown engine (`@pkmn/sim`) running in the browser.

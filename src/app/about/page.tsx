@@ -7,7 +7,7 @@ import { assets } from '@/lib/assets/provider';
 
 export const metadata: Metadata = {
   title: 'About',
-  description: 'Credits, attribution and disclaimer for Pokémon Champions, a fan-made browser battle game.',
+  description: 'Credits, attribution and disclaimer for Pokémon Daily Battle, a fan-made browser battle game.',
 };
 
 const ENGINE_CREDITS = [
@@ -21,10 +21,10 @@ export default function AboutPage() {
   return (
     <Shell width="narrow" className="space-y-8">
       <Heading level={1} kicker="About" size="lg">
-        Pokémon Champions
+        Pokémon Daily Battle
       </Heading>
       <p className="text-muted">
-        Pokémon Champions is a free, fan-made browser game. Every day you get six random Pokémon from across all nine
+        Pokémon Daily Battle is a free, fan-made browser game. Every day you get six random Pokémon from across all nine
         generations and one shot at beating a legendary trainer. Battles run entirely in your browser on the real
         Pokémon Showdown engine, so every interaction is exactly as it is in competitive play.
       </p>

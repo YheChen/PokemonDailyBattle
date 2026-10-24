@@ -1,6 +1,6 @@
 {
   "project": {
-    "name": "Pokémon Champions",
+    "name": "Pokémon Daily Battle",
     "description": "Browser Pokémon battle game: six random Gen 1–9 Pokémon vs iconic trainers, resolved by the real Pokémon Showdown engine (@pkmn/sim) in the browser. Modes: Daily Challenge, Free Battle, Boss Rush, Custom. Plus Pokédex, Stats, Settings.",
     "repoPath": "/Users/yanzhenchen/GitHub/Pokemon Daily",
     "remote": "none (local git repo initialized by create-next-app; one initial commit; nothing else committed — user has not asked for commits)",

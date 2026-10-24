@@ -22,7 +22,7 @@ export function Footer() {
         <div className="space-y-3">
           <div className="flex items-center gap-2">
             <PokeBall size={22} />
-            <span className="font-display text-[0.6rem] uppercase">Pokémon Champions</span>
+            <span className="font-display text-[0.6rem] uppercase">Pokémon Daily Battle</span>
           </div>
           <p className="max-w-md text-sm text-muted">
             A fan-made browser battle game. Six random Pokémon, legendary opponents, one chance to become Champion.
