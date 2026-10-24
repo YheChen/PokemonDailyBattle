@@ -3,13 +3,13 @@
     "name": "Pokémon Daily Battle",
     "description": "Browser Pokémon battle game: six random Gen 1–9 Pokémon vs iconic trainers, resolved by the real Pokémon Showdown engine (@pkmn/sim) in the browser. Modes: Daily Challenge, Free Battle, Boss Rush, Custom. Plus Pokédex, Stats, Settings.",
     "repoPath": "/Users/yanzhenchen/GitHub/Pokemon Daily",
-    "remote": "none (local git repo initialized by create-next-app; one initial commit; nothing else committed — user has not asked for commits)",
+    "remote": "https://github.com/YheChen/PokemonDailyBattle (public, default branch main; gh account YheChen)",
     "gitIdentity": "user's default; Co-Authored-By: Claude Fable 5.1 <noreply@anthropic.com> trailer required on commits if ever asked to commit",
-    "deploy": "Vercel-compatible Next.js 16 app (no deploy configured)"
+    "deploy": "Vercel project yhechens-projects/pokemon-daily-battle, production alias https://pokemon-daily-battle.vercel.app; GitHub repo connected so pushes to main auto-deploy. `vercel deploy --prod --yes` deploys manually (CLI logged in as yhechen). .vercel/ and .env.local (OIDC token) are gitignored."
   },
   "workflowConventions": {
     "branching": "no branches used; working on main in place",
-    "commits": "only when the user asks; end commit messages with the Co-Authored-By trailer above",
+    "commits": "commit when the user asks; end commit messages with the Co-Authored-By trailer above; push to origin/main deploys to production",
     "verified": "npm run check (typecheck + lint + vitest + trainer validation) passes AND npm run build passes AND the Definition of Done flow (ARCHITECTURE.md / original spec section 17) was clicked through in a browser",
     "sourceOfTruth": "ARCHITECTURE.md is the module contract every agent built against; README.md has the user-facing setup/run/test/deploy summary. User explicitly requires Pokémon Showdown gen5 sprite theme (gen5ani) for sprites."
   },
@@ -53,7 +53,7 @@
     "inProgress": "None. 2026-10-24: all review findings applied (fix workflow wf_8583bb67-e5c) and re-verified: npm run check green (typecheck, lint, 169 vitest tests, 23 trainers), npm run build green (36 routes), browser checks on the dev server: save-before-first-move + resume (F9), fresh battle vs Red while a Cynthia save exists (F8), Exit on the result overlay records the loss and clears the save (F11), Daily start → Exit (Leave keeps the save, Resume offered) → Give up records a forfeit loss and removes the Start button (F4). Nothing committed (user never asked)."
   },
   "nextSteps": [
-    "Nothing pending. To ship: git add/commit (user must ask), deploy to Vercel (no env vars needed)."
+    "Nothing pending. Push to main to deploy; `npm run check && npm run build` before pushing."
   ],
   "gotchas": [
     "PRNG seeds must be strings like '12,345,6789,10' (arrays are rejected by the types). seedFromString() in src/lib/util/seed.ts derives one from any string; Daily passes seedFromString(info.battleSeed) because the session casts config.seed straight to PRNGSeed.",
